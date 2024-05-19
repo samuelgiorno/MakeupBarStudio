@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The MakeUp Bar | MakeUp Studio </title>
+	<link href="./css/contacto.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="logomini.png"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/95627871ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<!--BOTÓN SCROLL UP -->
+	<div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+	<!--TOP-->	
+	<header id=header>
+		<div class="container-fluid barraSuperior" id="top">
+			<div class="text"><p>Obten 30% de descuento en Make up para novias.</p></div>
+		</div>
+	</header>
+	<nav class="navbar navbar-expand-sm navbar-dark">
+		<!-- Brand/logo -->
+		<a  style="text-decoration:none" class="navbar-brand" href="https://makeupbarstudio.com/">
+		  <img src="./images/logo/LOGO NORMAL.svg" alt="logo" style="width:150px;">
+		</a>
+		<!-- Links -->
+		<ul class="nav justify-content-end">
+			<li>
+			  <a  style="text-decoration:none" href="nosotros.html">NOSOTROS</a>
+			</li>
+			<li>
+			  <a  style="text-decoration:none" href="cursos.html">CURSOS</a>
+			</li>
+			<li>
+			  <a  style="text-decoration:none" href="servicios.html">SERVICIOS</a>
+			</li>
+			<li>
+			  <a  style="text-decoration:none" href="contactos.html">CONTACTO</a>
+			</li>
+			<li>
+			  <img src="./images/logo/ICONOBLANCO.svg" alt="" width="28" height="28" style="color: #F6F4F2;">
+			</li>
+		  </ul>
+	</nav>
+
+    <!-- BANNER -->
+    <div class="banner" style="margin-bottom:10px;">
+        <div class="banner-item active">
+          <img src="images/contacto/banner.png" alt="Makeup" class="center" class="no-repeat" style="max-width:100%;">
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <section class="contacto" id="contacto" style="background: #F6F4F2;">
+        <div class="formContacto">
+            <article>
+                <div class="contacto-content">
+                    <div class="column">
+                        <div class="text">
+                            <h1>Contáctanos</h1>
+                            <div class="square">
+                                <br> 
+                                <div class="line"></div> 
+                            </div>
+                            <br>
+                        </div>
+                        <p>Puede contactarnos de la forma que le resulte más conveniente.</p>
+                        <br><br>
+                    </div>
+                </div>
+
+				<div class="wrapper">
+				<form action="message.php" method="POST">
+					<div class="dbl-field">
+					  <div class="field">
+						<input type="text" name="name" placeholder="Nombre" style="background: #F6F4F2;">
+					  </div>
+					  <div class="field">
+						<input type="text" name="surname" placeholder="Apellido" style="background: #F6F4F2;">
+					  </div>
+					</div>
+					<div class="dbl-field">
+						<div class="field">
+							<input type="text" name="phone" placeholder="Movil" style="background: #F6F4F2;">
+						</div>
+					    <div class="field">
+						    <input type="text" name="email" placeholder="Correo Electrónico" style="background: #F6F4F2;">
+					    </div>
+					</div>
+					<div class="message">
+					  <textarea placeholder="Escribe tu mensaje" name="message" style="background: #F6F4F2;"></textarea>
+					</div>
+					<div class="button-area">
+						<div class="button-area">
+                        </div>
+						<button type="submit" class="send-msg btnenviar btn btn-outline-primary" style="float: left;"><a  style="text-decoration:none" name="send">ENVIAR   ></a></button>
+					</div>
+				</form>
+			</div>
+            </article>
+
+            <aside>
+                <h2>Dirección</h2>
+                <br>
+                <p>Calle Sugranyes, Sants-Badal. <br>
+                    Barcelona</p>
+                <br>
+                <hr>
+                <br>
+                <h2>Teléfono</h2>
+                <br>
+                <p>+34 642 639 803</p>
+                <br>
+                <hr>
+                <h2>Correo</h2>
+                <br>
+                <p>info@makeupbarstudio.com</p>
+                <br>
+                <hr>
+                <h2>Redes Sociales</h2>
+                <br>
+                <br>
+            </aside>
+        </div>
+    </section>
+
+	<hr>
+
+	<!--FOOTER-->
+	<footer class="footer" style="background: #F6F4F2;">		
+		<div class="container-fluid">	
+			<!--LOGOTIPO-->		
+			<div class="footer-left logo" id="logo">
+				<a href="https://makeupbarstudio.com/"><img src="./images/logo/LOGO PEQUEO CIRCULO.svg" class="img-responsive" alt="logo" class="floating_element"></a>
+			</div>	
+			<ul class="footer-right">
+				<!--COLUMNAS INFORMACION-->	
+				<div class="footerInformacion">					
+					<h4><b>¿Nos conocemos?</b></h4>
+					<h5>No dudes en contactar con nosotros o venir a <br>
+						conocernos personalmente. Estaremos encantados<br>
+						de resolverte cualquier duda o información de<br>
+						nuestros cursos.<br>
+						<br>
+						Te esperamos.</h5>		
+					<hr>
+					<div class="socials">	
+						<a href="https://facebook.com/" target="_blank">
+							<i class="fab fa-facebook-f" aria-hidden="true"></i>
+						</a>	
+						<a href="#" target="_blank">
+							<i class="fab fa-whatsapp" aria-hidden="true"></i>
+						</a>
+						<a href="https://instagram.com/make.up_bar" target="_blank">
+							<i class="fab fa-instagram" aria-hidden="true"></i>
+						</a>
+						<a href="#" target="_blank">
+							<i class="far fa-envelope" aria-hidden="true"></i>
+						</a>
+						<p>
+						Consultas?<br>
+						<span>+34 642 639 803</span>
+						</p>
+					</div>		
+				</div>
+				<!--COLUMNAS NAVEGACIÓN-->	
+				<li class="footerNav">
+					<h4><a  style="text-decoration:none" href="#" class="pixelCategorias" titulo="categoria"><b>Navegación</b></a></h4>
+					<ul class="box">
+						<li><a  style="text-decoration:none"  href="index.html" titulo="subcategoria">Home</a></li>
+						<li><a  style="text-decoration:none" href="nosotros.html" titulo="subcategoria">Nosotros</a></li>
+						<li><a  style="text-decoration:none" href="servicios.html" titulo="subcategoria">Servicios</a></li>
+						<li><a style="text-decoration:none" href="cursos.html" titulo="subcategoria">Cursos</a></li>
+						<li><a style="text-decoration:none" href="contactos.html" titulo="subcategoria">Contacto</a></li>
+					</ul>
+				</li>
+				<!--FORMULARIO NEWSLETTER-->
+				<li class="footerCliente">	
+					<h4><a style="text-decoration:none" href="#" class="pixelCategorias" titulo="categoria"><b>Atención al Cliente</b></a></h4>
+					<ul class="box">	
+						<li><a style="text-decoration:none" href="#" titulo="subcategoria">Trabajemos juntos</a></li>
+						<li><a style="text-decoration:none" href="#" titulo="subcategoria">Términos y Condiciones</a></li>
+						<li><a style="text-decoration:none" href="Cookies.html" titulo="subcategoria">Políticas de Privacidad</a></li>
+					</ul>
+				</li>
+				<div class="formContacto">	
+					<h4><a style="text-decoration:none" href="#" class="pixelCategorias" titulo="categoria"><b>Suscribete</b></a></h4>
+					<h5>Suscríbete a nuestra newsletter<br>
+						para recibir las últimas<br>
+						novedades y ofertas especiales.</h5>
+					<br>
+					<form role="form" method="post" onsubmit="Contactenos">  
+						<input type="email" id="emailContactenos" name="emailContactenos" class="form-control" placeholder="Correo" required>  
+						<br>
+						<button class="btn btn-default text-uppercase"type="submit" value="Enviar" class="btn btn-default pull-right" id="enviar">
+						<a style="text-decoration:none" href="#"> > </a></button>       
+					</form>
+				</div>
+			</ul>
+		<!--FINAL-->
+	<center>
+		<div class="container final">		
+			<hr>
+			<h5>Copyright &copy; 2021 The Makeup Bar Studio. All Rigts Reserved. <a style="text-decoration:none" href="#" target="_blank">Terminos de uso.</a> <a style="text-decoration:none" href="#" target="_blank">Políticas de privacidad.</a> Desarrollado con <i class="fas fa-heart"></i> por SEMU | Studio Creativo.</h5>
+			<br>
+		</div></center>
+		</div>
+	</footer>
+<script src="./javascript/message.js"></script>
+</body>
+</html>
+
